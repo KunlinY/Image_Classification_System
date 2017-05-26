@@ -1,0 +1,2 @@
+include ':app', ':lib_crop'
+project(':lib_crop').projectDir = new File('lib/lib_crop')
