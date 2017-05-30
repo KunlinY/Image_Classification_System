@@ -10,17 +10,5 @@
     {
         "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\crop__divider.9.png",
         "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-mdpi\\crop__divider.9.png"
-    },
-    {
-        "merged": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\crop__divider.9.png",
-        "source": "F:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-mdpi\\crop__divider.9.png"
-    },
-    {
-        "merged": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\crop__ic_cancel.png",
-        "source": "F:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-mdpi\\crop__ic_cancel.png"
-    },
-    {
-        "merged": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\crop__ic_done.png",
-        "source": "F:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-mdpi\\crop__ic_done.png"
     }
 ]

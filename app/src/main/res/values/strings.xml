@@ -16,5 +16,11 @@
     <string name="xlistview_header_last_time">上次更新时间：</string>
     <string name="xlistview_footer_hint_normal">查看更多</string>
     <string name="xlistview_footer_hint_ready">松开载入更多</string>
-    <string name="temp_to_go">pick</string>
+
+    <string name="add_attention">加关注</string>
+    <string name="user_post">此处为个人介绍</string>
+    <string name="user_point">书单：25本</string>
+    <string name="user_name">此处为用户名</string>
+    <string name="user_des">此处为个性签名</string>
+    <string name="user_recommend_tip">TA标记过的图片</string>
 </resources>

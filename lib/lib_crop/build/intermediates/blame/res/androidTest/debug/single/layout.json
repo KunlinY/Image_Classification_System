@@ -4,15 +4,7 @@
         "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__activity_crop.xml"
     },
     {
-        "merged": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crop__activity_crop.xml",
-        "source": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__activity_crop.xml"
-    },
-    {
         "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crop__layout_done_cancel.xml",
         "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__layout_done_cancel.xml"
-    },
-    {
-        "merged": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\crop__layout_done_cancel.xml",
-        "source": "F:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\layout\\crop__layout_done_cancel.xml"
     }
 ]
