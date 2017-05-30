@@ -7,4 +7,7 @@
     <dimen name="text_top_padding">25dp</dimen>
     <dimen name="title_text_size">26sp</dimen>
     <dimen name="tool_bar_height">56dp</dimen>
+    <dimen name="profile_photo_big">45dp</dimen>
+    <dimen name="title_big">40dp</dimen>
+    <dimen name="tags">20dp</dimen>
 </resources>

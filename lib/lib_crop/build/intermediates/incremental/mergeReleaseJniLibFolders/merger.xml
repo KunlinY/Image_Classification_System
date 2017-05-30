@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\Image_Classification_System\lib\lib_crop\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="F:\Image_Classification_System\lib\lib_crop\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\97520\Documents\Codes\Java Projects\Image_Classification_System\lib\lib_crop\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\97520\Documents\Codes\Java Projects\Image_Classification_System\lib\lib_crop\src\release\jniLibs"/></dataSet></merger>

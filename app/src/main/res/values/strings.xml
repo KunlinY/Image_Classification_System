@@ -3,6 +3,9 @@
     <string name="logo">Logo</string>
     <string name="search">Search</string>
     <string name="user">User</string>
+    <string name="pin">Pin</string>
+    <string name="crop">Crop</string>
+    <string name="share">Share</string>
     <string name="ptr_pull_to_refresh">Pull to refresh</string>
     <string name="ptr_release_to_refresh">Release to refresh</string>
     <string name="ptr_refreshing">Refreshing</string>

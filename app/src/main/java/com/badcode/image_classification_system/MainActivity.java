@@ -1,6 +1,5 @@
 package com.badcode.image_classification_system;
 
-import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;

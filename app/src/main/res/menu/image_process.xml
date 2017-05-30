@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ImageProcessActivity">
+    >
+
+    <item
+        android:id="@+id/pin"
+        android:icon="@drawable/pin"
+        android:orderInCategory="100"
+        android:title="@string/pin"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/crop"
+        android:icon="@drawable/crop"
+        android:orderInCategory="100"
+        android:title="@string/crop"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:orderInCategory="100"
+        android:title="@string/share"
+        app:showAsAction="always"/>
+
+</menu>

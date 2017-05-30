@@ -5,4 +5,5 @@
     <color name="colorAccent">#4fc1e9</color>
     <color name="navigationBarColor">#FFFFFF</color>
     <color name="text_color">#222222</color>
+    <color name="title_color">#000000</color>
 </resources>
