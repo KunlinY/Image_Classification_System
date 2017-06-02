@@ -24,8 +24,6 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.0'
-    testCompile 'junit:junit:4.12'
     compile files('libs/commons-codec-1.9.jar')
     compile files('libs/commons-logging-1.2.jar')
     compile files('libs/fluent-hc-4.5.3.jar')
@@ -37,5 +35,8 @@ dependencies {
     compile files('libs/jna-4.1.0.jar')
     compile files('libs/jna-platform-4.1.0.jar')
     compile project(':lib_crop')
+    compile 'com.android.support:appcompat-v7:25.3.0'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.android.support.constraint:constraint-layout:+'
+    testCompile 'junit:junit:4.12'
 }

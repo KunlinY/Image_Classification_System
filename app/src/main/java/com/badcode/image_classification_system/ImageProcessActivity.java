@@ -1,6 +1,11 @@
 package com.badcode.image_classification_system;
 
+
+import com.dodowaterfall.widget.ScaleImageView;
+import com.example.android.bitmapfun.util.ImageFetcher;
 import com.soundcloud.android.crop.Crop;
+import com.soundcloud.android.crop.CropImageActivity;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -8,34 +13,48 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
-import android.widget.ImageView;
 
 import java.io.File;
 
 public class ImageProcessActivity extends AppCompatActivity {
 
-    private static final String pic_id = "Picture ID";
-    private int picture_id;
-    private ImageView resultView;
+    private static final String pic = "Picture";
+    private String data;
+    private ScaleImageView resultView;
+    private ImageFetcher mImageFetcher;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_process);
-        picture_id = getIntent().getIntExtra(pic_id, -1);//这里需要判断如果没有找到对应图片的解决方案
-        resultView = (ImageView) findViewById(picture_id);
+        data = getIntent().getStringExtra(pic);//这里需要判断如果没有找到对应图片的解决方案
+        resultView = (ScaleImageView) findViewById(R.id.result_image);
+        mImageFetcher = new ImageFetcher(this, 240);
+        mImageFetcher.setLoadingImage(R.drawable.ic_launcher);
+        resultView.setImageWidth(10);
+        resultView.setImageHeight(10);
+        mImageFetcher.loadImage(data, resultView);
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.image_process, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        return true;
+        if (item.getItemId() == R.id.crop) {
+            Intent i = new Intent(ImageProcessActivity.this, CropImageActivity.class);
+            i.setData(Uri.parse(data));
+            startActivity(i);
+            Crop.pickImage(this);
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -59,4 +78,5 @@ public class ImageProcessActivity extends AppCompatActivity {
             Toast.makeText(this, Crop.getError(result).getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
+
 }

@@ -37,7 +37,7 @@ import java.util.List;
 import me.maxwin.view.XListView;
 
 public class MainActivity extends AppCompatActivity implements XListView.IXListViewListener {
-    private static final String pic_id = "Picture ID";
+    private static final String pic = "Picture";
     private ImageFetcher mImageFetcher;
     private XListView mAdapterView = null;
     private StaggeredAdapter mAdapter = null;
@@ -214,11 +214,13 @@ public class MainActivity extends AppCompatActivity implements XListView.IXListV
             holder.contentView.setText(duitangInfo.getMsg());
             mImageFetcher.loadImage(duitangInfo.getIsrc(), holder.imageView);
 
-            convertView.setOnClickListener(new View.OnClickListener() {
+            final String data = duitangInfo.getIsrc();
+
+            holder.imageView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent i = new Intent(MainActivity.this, ImageProcessActivity.class);
-                    i.putExtra(pic_id, R.id.news_pic);
+                    i.putExtra(pic, data);
                     startActivity(i);
                 }
             });
@@ -287,6 +289,11 @@ public class MainActivity extends AppCompatActivity implements XListView.IXListV
         switch (item.getItemId()) {
             case android.R.id.home:
                 finish();
+                break;
+            case R.id.user:
+                Intent i = new Intent(MainActivity.this, UserInfoActivity.class);
+                startActivity(i);
+                break;
         }
         return true;
     }

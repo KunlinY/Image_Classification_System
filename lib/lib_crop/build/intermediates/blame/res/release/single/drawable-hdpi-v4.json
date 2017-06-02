@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\crop__ic_cancel.png",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-hdpi\\crop__ic_cancel.png"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\crop__ic_done.png",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-hdpi\\crop__ic_done.png"
     },
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\crop__divider.9.png",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-hdpi\\crop__divider.9.png"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\crop__ic_cancel.png",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-hdpi\\crop__ic_cancel.png"
     },
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\crop__ic_done.png",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-hdpi\\crop__ic_done.png"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\crop__divider.9.png",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\drawable-hdpi\\crop__divider.9.png"
     }
 ]

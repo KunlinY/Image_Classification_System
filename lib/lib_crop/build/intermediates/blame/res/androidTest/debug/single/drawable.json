@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\crop__texture.xml",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__texture.xml"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\crop__selectable_background.xml",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__selectable_background.xml"
     },
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\crop__selectable_background.xml",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__selectable_background.xml"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\crop__texture.xml",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\bundles\\debug\\res\\drawable\\crop__texture.xml"
     }
 ]

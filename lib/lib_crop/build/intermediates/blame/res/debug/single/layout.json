@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\layout\\crop__activity_crop.xml",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\layout\\crop__activity_crop.xml"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\layout\\crop__activity_crop.xml"
     },
     {
-        "merged": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\layout\\crop__layout_done_cancel.xml",
-        "source": "C:\\Users\\97520\\Documents\\Codes\\Java Projects\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\layout\\crop__layout_done_cancel.xml"
+        "merged": "C:\\Image_Classification_System\\lib\\lib_crop\\build\\intermediates\\res\\merged\\debug\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Image_Classification_System\\lib\\lib_crop\\src\\main\\res\\layout\\crop__layout_done_cancel.xml"
     }
 ]
