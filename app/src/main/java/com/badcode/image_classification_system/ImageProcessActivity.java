@@ -57,6 +57,7 @@ public class ImageProcessActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent result) {
         if (requestCode == Crop.REQUEST_PICK && resultCode == RESULT_OK) {
